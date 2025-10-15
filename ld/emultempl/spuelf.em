@@ -263,7 +263,7 @@ spu_before_parse (void)
 {
   gld${EMULATION_NAME}_before_parse ();
 
-  config.has_pie = `if test -n "$GENERATE_PIE_SCRIPT" ; then echo TRUE ; else echo FALSE ; fi`;
+  config.has_pie = `if test -n "$GENERATE_PIE_SCRIPT" ; then echo true ; else echo false ; fi`;
 }
 
 /* Go find if we need to do anything special for overlays.  */
