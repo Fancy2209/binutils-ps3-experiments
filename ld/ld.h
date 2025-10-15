@@ -236,6 +236,9 @@ typedef struct
      parameter.  */
   bool has_shared;
 
+  /* If TRUE, -pie is supported.  */
+  bool has_pie;
+
   /* If TRUE, build constructors.  */
   bool build_constructors;
 

@@ -1377,6 +1377,8 @@ parse_args (unsigned argc, char **argv)
 
 	      link_info.type = type_pie;
 	    }
+	  else if (config.has_pie)
+	    link_info.type = type_pie;
 	  else
 	    fatal (_("%P: -pie not supported\n"));
 	  break;

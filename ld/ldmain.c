@@ -665,6 +665,7 @@ main (int argc, char **argv)
   config.make_executable = true;
   config.magic_demand_paged = true;
   config.text_read_only = true;
+  config.has_pie = false;
   config.print_map_discarded = true;
   link_info.disable_target_specific_optimizations = -1;
 
